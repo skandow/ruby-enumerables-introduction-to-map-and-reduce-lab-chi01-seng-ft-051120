@@ -7,4 +7,8 @@ def map_to_negativize(source_array)
     array_count += 1 
   end
   result
+end
+
+def map_to_no_change(source_array)
+  source_array
 end 
