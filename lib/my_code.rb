@@ -46,5 +46,15 @@ end
 def reduce_to_all_true(source_array)
   truth_count = 0 
   array_count = 0 
-  while array_count = 
+  while array_count < source_array.length do 
+    if source_array[array_count] != false 
+      truth_count += 1 
+    end 
+    array_count += 1 
+  end 
+  if truth_count == array_count
+    verdict = true 
+  end 
+  verdict
+end 
   
