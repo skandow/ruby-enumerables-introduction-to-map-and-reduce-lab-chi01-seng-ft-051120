@@ -22,3 +22,13 @@ def map_to_double(source_array)
   end 
   result
 end 
+
+def map_to_square(source_array)
+  array_count = 0 
+  result = []
+  while array_count < source_array.length do 
+    result[array_count] = source[array_count] ** 2 
+    array_count += 1 
+  end 
+  result
+end 
