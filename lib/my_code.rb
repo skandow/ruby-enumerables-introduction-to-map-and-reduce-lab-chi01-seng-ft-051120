@@ -58,7 +58,7 @@ def reduce_to_all_true(source_array)
   verdict
 end 
 
-def reduce_to_any_true 
+def reduce_to_any_true(source_array)
   truth_count = 0 
   array_count = 0 
   while array_count < source_array.length do 
