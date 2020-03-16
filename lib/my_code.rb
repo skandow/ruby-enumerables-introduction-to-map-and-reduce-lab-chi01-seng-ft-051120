@@ -54,6 +54,8 @@ def reduce_to_all_true(source_array)
   end 
   if truth_count == array_count
     verdict = true 
+  else 
+    verdict = false
   end 
   verdict
 end 
@@ -69,6 +71,8 @@ def reduce_to_any_true(source_array)
   end 
   if truth_count >= 1 
     verdict = true 
+  else
+    verdict = false
   end 
   verdict
 end 
