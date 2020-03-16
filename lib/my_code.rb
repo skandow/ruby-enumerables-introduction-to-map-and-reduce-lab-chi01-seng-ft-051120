@@ -42,4 +42,9 @@ def reduce_to_total(source_array, starting_value = 0)
   end 
   result
 end 
+
+def reduce_to_all_true(source_array)
+  truth_count = 0 
+  array_count = 0 
+  while array_count = 
   
